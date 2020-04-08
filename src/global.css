@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+/* .app-container {
+  display: ;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a5c27f;
+} */
+.app-container img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 10px;
+
+}
+.search-container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.search-container input{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  color: #333;
+  border: 1px solid #dce5e6;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+.search-container button{
+  cursor: pointer;
+  width: 50%;
+  max-width: 100px;
+  height: 50px;
+  background: #01aaab;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  transition: 16px;
+  display: inline-block;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 18px;
+  transition: filter 0.2s;
+}
+.recipes-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recipe-container{
+  width: 25rem;
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dcdce6;
+  position: relative;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #aaa;
+}
+.recipe-container span {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.recipe-container img {
+  border-radius: 5rem;
+  object-fit: cover;
+}
+.recipe-container button {
+  font-size: 2;
+  font-weight: bold;
+  color: #fff;
+  background-color: #01aaab;
+  border: none;
+  border-radius: 0.5rem;
+  height: 2rem;
+  margin-top: 10px;
+}
+.notification{
+  text-align: center;
+}
+.details-container li h4{
+  margin-left: -25px;
+  text-align: center;
+  font-weight: 500;
+  justify-content: left;
+}
+
+
+
+
+
